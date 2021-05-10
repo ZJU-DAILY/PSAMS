@@ -1,0 +1,8 @@
+sample.txt
+sample_qid.txt
+sample_query.txt
+pivot/pivotsample.txt 5  
+cost_sample.txt
+1 5 10 20 50 100
+2 3 4 5 6 8 10
+5

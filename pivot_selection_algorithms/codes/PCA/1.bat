@@ -1,0 +1,1 @@
+start python 1.py
