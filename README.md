@@ -1,7 +1,8 @@
 
 ## Introduction
 
-This repo holds the source code and scripts for pivot selection algorithms in metric apaces.
+This repo holds the source code and scripts for our paper: Pivot Selection Algorithms in Metric Spaces: An Experimental Evaluation, VLDBJ 2022.
+
 Details can be refferred to  https://github.com/ZJU-DBL/PSAMS
 
 ## Usage
@@ -12,12 +13,15 @@ The used datasets has the following files:
 	*.txt
 	*_qid.txt
 	*_query.txt
+
 The first file contains all the data, and the first line for datasets except 'words' denotes the size, the dimention and the distance metric (taking 1 as an example, it means L-1 Norm Distance).
+
 The second and the third file contains the ids and the values for the quries.
 
 2. Index
 
 After asking the authors for the codes of all the three indexes, we only get the execute file.
+
 The file 'indexes' contains the execute files for LAESA (LAESA_Float.exe, LAESA_String.exe), MVP tree (MVP_Tree_Float.exe, MVP_Tree_String.exe) and SPB (SPB_Tree_Float.exe, SPB_Tree_String.exe) tree. In the sub folder, 'input.txt' is the input file for all the exe files. The sample input is as follow:
 
 ```
@@ -68,7 +72,9 @@ Each dataset can be obtained from the following links.
 The dataset INT and examples for each dataset are included in the folder dataset.
 
 The specific k for k-nearest neighbour query and r for range query are as belows:
-| Dataset | Range for 1%, 2%, 4%, 8%, 16%, 32%, 64% |
+
+| __Dataset__ | __Range for 1%, 2%, 4%, 8%, 16%, 32%, 64%__ |
+|-------------|------------|
 | LA	| 473, 692, 989, 1409, 1875, 2314, 3096 | 
 | Integer |	2321,2733, 3229,3843, 4614, 5613, 7090 |
 | Color	|	3838, 4092, 4399, 4773, 5241, 5904, 7104 |
@@ -76,10 +82,12 @@ The specific k for k-nearest neighbour query and r for range query are as belows
  
 ## Citation
 If you use our code for research work, please cite our paper as below:
+
 ```
 @article{,
   title={Pivot Selection Algorithms in Metric Spaces: An Experimental Evaluation},
   author={Yifan Zhu, Lu Chen, Yunjun Gao, Christian S. Jensen},
-  year={2021},
+  journal={VLDBJ}
+  year={2022},
 }
 ```
