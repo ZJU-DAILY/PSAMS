@@ -1,7 +1,7 @@
 
 ## Introduction
 
-This repo holds the source code and scripts for our paper: Pivot Selection Algorithms in Metric Spaces: An Experimental Evaluation, VLDBJ 2022.
+This repo holds the source code and scripts for our paper: Pivot Selection Algorithms in Metric Spaces: An Experimental Evaluation,To appear in The VLDB Journal (VLDBJ), 2021.
 
 Details can be refferred to  https://github.com/ZJU-DBL/PSAMS
 
@@ -88,6 +88,6 @@ If you use our code for research work, please cite our paper as below:
   title={Pivot Selection Algorithms in Metric Spaces: An Experimental Evaluation},
   author={Yifan Zhu, Lu Chen, Yunjun Gao, Christian S. Jensen},
   journal={VLDBJ}
-  year={2022},
+  year={2021},
 }
 ```
